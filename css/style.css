@@ -1,0 +1,267 @@
+/* @import url("https://fonts.googleapis.com") */
+/* @import url("https://fonts.gstatic.com")
+@import url("https://fonts.googleapis.com/css2?family=Asset&family=Fredoka:wght@700&display=swap") */
+nav {
+  position: fixed;
+  background-color: rgb(187, 3, 255);
+}
+
+.collapse ul li {
+  font-family: "Asset", cursive;
+}
+
+header {
+  background-color: rgb(187, 3, 255);
+}
+
+.navbar-brand {
+  color: white;
+  font-family: "Lobster";
+}
+
+.second {
+  color: cyan;
+}
+
+.nav-link {
+  color: #ffff;
+  font-size: 1.2rem;
+  text-shadow: 0px 0.5px 0.5px #000;
+}
+.active{
+  color: #000;
+}
+
+/* .navbar-toggler{
+    background-color: #fff;
+} */
+
+ul li {
+  list-style: none;
+}
+
+.title {
+  color: #ffff;
+  text-shadow: 1px 2px 3px #000;
+  font-family: "Lobster";
+}
+
+/* home  */
+#home {
+  padding-top: 1rem;
+  background-color: rgb(95, 3, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(95, 3, 255, 1) 0%,
+    rgba(199, 3, 255, 1) 100%
+  );
+  height: fit-content;
+}
+#home p {
+  font-family: "Asset", cursive;
+  margin-top: 1rem;
+}
+
+ 
+
+#home .input-group-append {
+  margin-left: 1rem;
+  z-index: 12;
+  box-shadow: 1px, 2px 3px #000;
+}
+.explore {
+  background: linear-gradient(
+    0deg,
+    rgba(95, 3, 255, 1) 0%,
+    rgba(199, 3, 255, 1) 100%
+  );
+}
+
+.explore button:hover {
+  background-color: #ffff;
+}
+
+.social-media i {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+#image {
+  /* width: 10%; */
+  height: 20rem;
+  /* background-image: url(../image/6na4belnigh7v9krt4cgfcg8s9.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img {
+  position: relative;
+  left: 8rem;
+  height:inherit;
+}
+
+#image-2 {
+  /* background-image: url("../image/png-image.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 20rem;
+  display: block;
+  margin: auto;
+}
+/* #image::after{
+    content: '';
+    position: absolute;
+    width: 28rem;
+    height: 28rem;
+    border-radius: 100%;
+    border: 60px solid rgb(90,0,149);
+    z-index: 0;
+    transform: translate(0,15%)!important;
+    top:4rem;
+    right:7.5rem
+  } */
+
+#text-area {
+  margin-top: auto;
+}
+
+/* testimonials  */
+h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonials {
+  margin-top: 3vh;
+  text-align: center;
+}
+
+.testimonials img {
+  text-align: center;
+  height: 20rem;
+  width: 20rem;
+  margin-top: 2rem;
+  border-radius: 20px;
+  transition: 1s;
+}
+.testimonials img:hover {
+  transform: scale(1.1);
+  z-index: 3;
+}
+
+.testimonials h3 {
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+/* #col{
+    background-color: rgb(228, 248, 246);
+    margin: 3px;
+    padding-bottom: 2rem;
+   } */
+
+.testimonials button:hover {
+  color: rgb(48, 184, 102);
+  background-color: aliceblue;
+}
+
+/* features  */
+#features {
+  margin: 5px;
+}
+#feature-image {
+  height: 25rem;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+}
+
+#card{
+  background-image: url("/image/b48d5e6fdb4f95b64a2dd46bc222cf70.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* card  */
+
+.card {
+  margin: 1rem;
+}
+
+.card img {
+  height: 15rem;
+}
+
+
+/* contact us  */
+/*  */
+.footer-list{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.footer{
+  margin-top: -35px;
+}
+
+.footer-title{
+  font-family: "Lobster";
+  color: aliceblue;
+}
+.footer i , p, li{
+  font-size: 20px;
+  /* color: aliceblue; */
+}
+
+.footer-list li i{
+  font-size: larger;
+}
+
+@media screen and (max-width: 450px) {
+  .bg-img {
+    position: relative;
+    left: 0rem;
+
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 900px) {
+  #text-area {
+    position: relative;
+    bottom: 2rem;
+  }
+
+  .testimonials img:hover {
+    height: 22rem;
+    z-index: 2;
+  }
+
+  .container {
+    text-align: justify;
+    position: relative;
+    top: vh;
+  }
+  #home{
+    height: 100vh;
+  }
+  .bg-img{
+    height: 35rem;
+    left: 0;
+  }
+  #about{
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .bg-img {
+    position: relative;
+    /* left:-2rem; */
+  }
+
+}
